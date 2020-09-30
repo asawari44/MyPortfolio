@@ -1,11 +1,11 @@
 # banner
 banner:
-  title : "Hi! I’m <br> Christoher <br> UX designer"
+  title : "Hi! I’m <br> Asa <br> Cloud & DevOps Engineer"
 
 # about
 about:
   enable : true
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  content : "Student at KTH Royal Institute of Technology, Sweden | Cloud and DevOps Engineer | Sr. Software Engineer | Automation Opportunist | Former DevOps intern @Aalto University, Finland | Master's degree in Cloud and Network Infrastructures"
   button:
     enable : true
     label : "know more"
@@ -16,21 +16,47 @@ skill:
   enable : true
   title : "Skills"
   item:
-    - title : "Web Design"
+    - title : "Docker"
       progress : "90%"
       color : "#fdb157"
       
-    - title : "Logo Design"
-      progress : "60%"
+    - title : "Kubernetes"
+      progress : "90%"
       color : "#9473e6"
       
-    - title : "After Effects"
+    - title : "Jenkins"
       progress : "80%"
       color : "#bdecf6"
       
-    - title : "Web App"
+    - title : "AWS services"
       progress : "70%"
       color : "#ffbcaa"
+
+    - title : "shell scripting"
+      progress : "80%"
+      color : "#fdb157"
+
+    - title : "python"
+      progress : "80%"
+      color : "#9473e6"
+
+    - title : "ELK stack"
+      progress : "80%"
+      color : "#bdecf6"
+
+    - title : "web development"
+      progress : "60%"
+      color : "#ffbcaa"
+
+    - title : "CI/CD operations"
+      progress : "80%"
+      color : "#fdb157"
+
+    - title : "DevOps"
+      progress : "80%"
+      color : "#9473e6"
+
+
 
 # experience
 experience:
@@ -38,62 +64,79 @@ experience:
   title : "Experience"
   item: 
     - logo : "images/experience/icon-1.png"
-      title : "Junior UX Designer"
-      company : "WEBEX"
-      duration : "Jan 2007 - Feb 2009"
+      title : "Research Summer Intern"
+      company : "Aalto University, Helsinki, Finland"
+      duration : "Jun 2020 - Aug 2020"
       
     - logo : "images/experience/icon-2.png"
-      title : "UX & UI Designer"
-      company : "AUGMEDIX"
-      duration : "Mar 2009 - Aug 2014"
+      title : "Senior Software Engineer (DevOps)"
+      company : "GS Lab pvt. ltd., Pune, India"
+      duration : "Jul 2016 - July 2019"
       
     - logo : "images/experience/icon-1.png"
-      title : "Senior UI Designer"
-      company : "THEMEFISHER"
-      duration : "Sep 2014 - Present"
+      title : "Summer Intern"
+      company : "Cresco mobility solutions, Mumbai, India"
+      duration : "June 2015 - Aug 2015"
 
 # education
 education:
   enable : true
   title : "Education"
   item:
-    - title : "Marters in UX Design"
-      year : "2006"
-      academy : "Masassusets Institute of Technology"
+    - title : "Master's degree in cloud & Network infrastructure (EIT)"
+      year : "2020-2021"
+      academy : "KTH Royal Institute Of Technology, Stockholm, Sweden"
       
-    - title : "Honours in Fine Arts"
-      year : "2004"
-      academy : "Harvard University"
+    - title : "Master's degree in cloud & Network infrastructure (EIT)"
+      year : "2019-2020"
+      academy : "Aalto University, Helsinki, Finland"
       
-    - title : "Higher Secondary Certificat"
-      year : "2000"
-      academy : "Cardiff School"
+    - title : "Bachelor's degree in coumputer science"
+      year : "2012-2016"
+      academy : "Maharashtra Institute Of Technology, Pune, India"
       
     - title : "Secondary School Certificate"
-      year : "1998"
-      academy : "Cardiff School"
+      year : "2010-2012"
+      academy : "YCIS, satara, India"
 
 # service
 service:
   enable : true
   title : "Services"
   item:
-    - title : "UI Design"
-      icon : "ti-palette"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    - title : "DevOps & CI/CD"
+      icon : "ti-rocket"
+      content : "Building CI/CD pipelines using industry recognized CI/CD tools such as Jenkins, Gitlab CI, infrastructure provisioning with Terraform, cloudformation and infrastructure configuraion using Ansible, Chef."
       highlighted : false
 
-    - title : "UX Design"
-      icon : "ti-vector"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-      highlighted : true
-
-    - title : "Interaction Design"
-      icon : "ti-panel"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    - title : "Cloud technologies"
+      icon : "ti-cloud-up"
+      content : "Providing infrastructure on different cloud platforms such as AWS, Azure, OpenStack and GCP (Major experience in AWS services)."
       highlighted : false
+
+    - title : "Automation"
+      icon : "ti-settings"
+      content : "Understanding repetition of processes and automating them to reduce human intervention, with the help of python and shell scripting."
+      highlighted : false
+
+    - title : "Linux Administration"
+      icon : "ti-user"
+      content : "Maintaining users and directory access, creating, deleting, handling files and packages, updating and installing packages."
+      highlighted : false
+
+    - title : "Infrastructure monitoring"
+      icon : "ti-bar-chart"
+      content : "Monitoring deployed environments using zabbix, prometheus, nagios, ELK stack, etc."
+      highlighted : false
+
+    - title : "Continuous support"
+      icon : "ti-headphone"
+      content : "Supporting client during development, testing and production by clear and perpetual communication and urgent bugfixes."
+      highlighted : false
+
 
 # portfolio
+
 portfolio:
   enable : true
   title : "Portfolio"
@@ -105,7 +148,7 @@ testimonial:
   enable : true
   title : "Testimonials"
   item:
-    - name : "Jesica Gomez"
+    - name : ""
       image : "images/testimonial/client-1.png"
       designation : "CEO, Funder"
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."

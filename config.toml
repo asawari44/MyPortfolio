@@ -3,7 +3,7 @@ baseURL = "http://192.168.56.102:1313"
 languageCode = "en-us"
 summaryLength = "10"
 theme = "kross-hugo"
-title = "Kross"
+title = "Asawari Joshi"
 
 # css plugins
 [[params.plugins.css]]
@@ -54,13 +54,14 @@ weight = 4
 home = "Home"
 logo = ""
 # theme color
-theme_color = "#41228e"
+#theme_color = "#41228e"
+theme_color = "#cce7e8"
 # contact info
-phone = "+880 2544 658 256"
-email = "steve.fruits@email.com"
-address = "125/A, CA Commercial Area, California, USA"
+phone = "+358 417269091"
+email = "asawari44@email.com"
+address = "Kungshamra 41, 1219, Solna, Sweden. 170 70"
 # meta description
-author = "Johnathan Smith"
+author = "Asawari Joshi"
 description = "This is meta description"
 # google analytics
 google_analytics_id = "" # Your ID
