@@ -1,75 +1,104 @@
-baseURL = "http://192.168.56.102:1313"
+# default configuration
+baseURL = "http://examplesite.com"
 languageCode = "en-us"
-theme = "raditian-free-hugo-theme"
+summaryLength = "10"
+theme = "kross-hugo"
+title = "Kross"
 
-# Plugins
-[params.plugins]
-
-  # CSS Plugins
-  [[params.plugins.css]]
-  URL = "css/main.css"
-  [[params.plugins.css]]
-  URL = "css/rad-icons.css"
-  [[params.plugins.css]]
-  URL = "css/custom.css"
-
-  # JS Plugins
-  [[params.plugins.js]]
-  URL = "js/rad-animations.js"
-  [[params.plugins.js]]
-  URL = "js/sticky-header.js"
-  [[params.plugins.js]]
-  URL = "js/library/fontfaceobserver.js"
+# css plugins
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/slick/slick.css"
+[[params.plugins.css]]
+link = "plugins/themify-icons/themify-icons.css"
 
 
-# navigation
-[menu]
-
-  [[menu.header]]
-  name = "About"
-  URL = "#about"
-  weight = 2
-
-  [[menu.header]]
-  name = "Portfolio"
-  URL = "#portfolio"
-  weight = 3
-
-  [[menu.header]]
-  name = "Contact"
-  URL = "#contact"
-  weight = 4
+# js plugin
+[[params.plugins.js]]
+link = "plugins/jQuery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/slick/slick.min.js"
+[[params.plugins.js]]
+link = "plugins/shuffle/shuffle.min.js"
+[[params.plugins.js]]
+link = "plugins/google-map/map.js"
 
 
-  [[menu.footer]]
-  name = "About"
-  URL = "#about"
-  weight = 2
+# menu
+[[menu.main]]
+URL = "about"
+name = "About"
+weight = 1
 
-  [[menu.footer]]
-  name = "Portfolio"
-  URL = "#portfolio"
-  weight = 3
+[[menu.main]]
+URL = "blog"
+name = "Blog"
+weight = 2
 
-  [[menu.footer]]
-  name = "Contact"
-  URL = "#contact"
-  weight = 4
+[[menu.main]]
+URL = "portfolio"
+name = "Portfolio"
+weight = 3
+
+[[menu.main]]
+URL = "contact"
+name = "Contact"
+weight = 4
 
 
+# default parameters
 [params]
+home = "Home"
+logo = ""
+# theme color
+theme_color = "#41228e"
+# contact info
+phone = "+880 2544 658 256"
+email = "steve.fruits@email.com"
+address = "125/A, CA Commercial Area, California, USA"
+# meta description
+author = "Johnathan Smith"
+description = "This is meta description"
+# google analytics
+google_analytics_id = "" # Your ID
+# copyright
+copyright = "Copyright &copy; 2020 a theme by [gethugothemes](https://gethugothemes.com)"
 
-  sections = ["showcase", "about", "education", "experience", "client-and-work", "testimonial", "contact", "newsletter"]
 
-  googleTagManagerID = "GTM-000000" # Google Analytics works with Google Tag Manager
+# preloader
+[params.preloader]
+enable = true
+preloader = "images/preloader.gif" # use png, jpg, svg or gif format
 
-  [params.logo]
-    text1 = "Andreas"
-    text2 = "Ellure"
+# contact
+[params.contact]
+enable = true
+form_action = "#" # contact form works with : https://formspree.io
 
-  [params.footer]
-      copyright = "© Raditian. All rights reserved."
-      [params.footer.radity_logo]
-        x = "img/general/design-and-code-radity.png"
-        _2x = "img/general/design-and-code-radity@2x.png"
-        alt = "Design & Code - Radity"
+# google map
+[params.map]
+enable = true
+gmap_api = "https://maps.googleapis.com/maps/api/js?key=&#038;types=(cities)&#038;libraries=places&#038;language=en"
+map_latitude = "51.5223477"
+map_longitude = "-0.1622023"
+map_marker = "images/marker.png"
+
+# social site
+[[params.social]]
+icon = "ti-facebook"
+URL = "#"
+
+[[params.social]]
+icon = "ti-instagram"
+URL = "#"
+
+[[params.social]]
+icon = "ti-dribbble"
+URL = "#"
+
+[[params.social]]
+icon = "ti-twitter-alt"
+URL = "#"
