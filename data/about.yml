@@ -1,24 +1,19 @@
 # work process
 work_process:
   enable : true
-  title : "Work Process"
+  title : "Skills"
   item:
-  - title : "Research and Plan"
-    icon : "images/icons/plan.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  - title : "Technology"
+    icon : "images/icons/1.png"
+    content : "CI/CD toolchain, Jenkins, gitlab CI, Docker, Kubernetes, AWS ECS service, AWS AKS, ELK stack, Zabbix, Nagios, Prometheus, Openstack, Azure kubernetes service, Terraform, Cloudformation, Ansible, python scripting, shell scripting, Android application development, Web development with HTML, python flask web applications, stackstorm- event-driven automation"
     
-  - title : "Design and Develop"
-    icon : "images/icons/design.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  - title : "Business"
+    icon : "images/icons/2.png"
+    content : "Startup ecosystem experience, pitching, presentation, client communication, user research and mock-up designs with Figma, UML diagrams"
     
-  - title : "Deliver"
-    icon : "images/icons/print.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-
-
 # team
 team:
-  enable: true
+  enable: false
   title : "My Team"
   team_member:
     - title : "Jack Schenziwe"
@@ -36,6 +31,6 @@ team:
 
 # client logo slider
 clients_logo_slider:
-  enable : true
+  enable : false
   title : "My Clients"
   # clients logo comes from 'data/homepage.yml' file

@@ -11,73 +11,10 @@ about:
     label : "know more"
     URL : "about"
 
-# skill
-skill:
-  enable : true
-  title : "Skills"
-  item:
-    - title : "Docker"
-      progress : "90%"
-      color : "#fdb157"
-      
-    - title : "Kubernetes"
-      progress : "90%"
-      color : "#9473e6"
-      
-    - title : "Jenkins"
-      progress : "80%"
-      color : "#bdecf6"
-      
-    - title : "AWS services"
-      progress : "70%"
-      color : "#ffbcaa"
-
-    - title : "shell scripting"
-      progress : "80%"
-      color : "#fdb157"
-
-    - title : "python"
-      progress : "80%"
-      color : "#9473e6"
-
-    - title : "ELK stack"
-      progress : "80%"
-      color : "#bdecf6"
-
-    - title : "web development"
-      progress : "60%"
-      color : "#ffbcaa"
-
-    - title : "CI/CD operations"
-      progress : "80%"
-      color : "#fdb157"
-
-    - title : "DevOps"
-      progress : "80%"
-      color : "#9473e6"
 
 
-
-# experience
-experience:
-  enable : true
-  title : "Experience"
-  item: 
-    - logo : "images/experience/icon-1.png"
-      title : "Research Summer Intern"
-      company : "Aalto University, Helsinki, Finland"
-      duration : "Jun 2020 - Aug 2020"
-      
-    - logo : "images/experience/icon-2.png"
-      title : "Senior Software Engineer (DevOps)"
-      company : "GS Lab pvt. ltd., Pune, India"
-      duration : "Jul 2016 - July 2019"
-      
-    - logo : "images/experience/icon-1.png"
-      title : "Summer Intern"
-      company : "Cresco mobility solutions, Mumbai, India"
-      duration : "June 2015 - Aug 2015"
-
+skills:
+  enable: false 
 # education
 education:
   enable : true
@@ -98,6 +35,26 @@ education:
     - title : "Secondary School Certificate"
       year : "2010-2012"
       academy : "YCIS, satara, India"
+
+# experience
+experience:
+  enable : true
+  title : "Experience"
+  item: 
+    - logo : "images/experience/icon-1.png"
+      title : "Research Summer Intern"
+      company : "Aalto University, Helsinki, Finland"
+      duration : "Jun 2020 - Aug 2020"
+      
+    - logo : "images/experience/icon-2.png"
+      title : "Senior Software Engineer (DevOps)"
+      company : "GS Lab pvt. ltd., Pune, India"
+      duration : "Jul 2016 - July 2019"
+      
+    - logo : "images/experience/icon-1.png"
+      title : "Summer Intern"
+      company : "Cresco mobility solutions, Mumbai, India"
+      duration : "June 2015 - Aug 2015"
 
 # service
 service:
@@ -145,7 +102,7 @@ portfolio:
 
 # testimonial
 testimonial:
-  enable : true
+  enable : false
   title : "Testimonials"
   item:
     - name : ""
@@ -165,7 +122,7 @@ testimonial:
 
 # client logo slider
 clients_logo_slider:
-  enable : true
+  enable : false
   item:
     - logo : "images/clients-logo/client-logo-1.png"
       URL : "http://examplesite.com"
