@@ -5,7 +5,7 @@ banner:
 # about
 about:
   enable : true
-  content : "Student at KTH Royal Institute of Technology, Sweden | Cloud and DevOps Engineer | Sr. Software Engineer | Automation Opportunist | Former DevOps intern @Aalto University, Finland | Master's degree in Cloud and Network Infrastructures"
+  content : "Student at KTH Royal Institute of Technology, Sweden | Cloud and DevOps Engineer | Sr. Software Engineer | Automation Opportunist | Research Summer Intern @Aalto University, Finland | Master's degree in Cloud and Network Infrastructures"
   button:
     enable : true
     label : "know more"
@@ -63,7 +63,7 @@ service:
   item:
     - title : "DevOps & CI/CD"
       icon : "ti-rocket"
-      content : "Building CI/CD pipelines using industry recognized CI/CD tools such as Jenkins, Gitlab CI, infrastructure provisioning with Terraform, cloudformation and infrastructure configuraion using Ansible, Chef."
+      content : "Building CI/CD pipelines using industry recognized tools such as Jenkins, infrastructure provisioning with Terraform, infrastructure configuraion using Ansible"
       highlighted : false
 
     - title : "Cloud technologies"
@@ -83,12 +83,12 @@ service:
 
     - title : "Infrastructure monitoring"
       icon : "ti-bar-chart"
-      content : "Monitoring deployed environments using zabbix, prometheus, nagios, ELK stack, etc."
+      content : "Monitoring deployed environments using zabbix, prometheus, nagios, ELK stack, etc. and collecting CPU/Memory statitstics."
       highlighted : false
 
     - title : "Continuous support"
       icon : "ti-headphone"
-      content : "Supporting client during development, testing and production by clear and perpetual communication and urgent bugfixes."
+      content : "Supporting the client during development, testing and production by clear and urgent bugfixes."
       highlighted : false
 
 
