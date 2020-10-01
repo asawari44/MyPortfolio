@@ -55,7 +55,8 @@ home = "Home"
 logo = ""
 # theme color
 #theme_color = "#41228e"
-theme_color = "#B19CD9"
+#theme_color = "#B19CD9"
+theme_color = "#CE9DD9"
 # contact info
 phone = "+358 417269091"
 email = "asawari44@email.com"
