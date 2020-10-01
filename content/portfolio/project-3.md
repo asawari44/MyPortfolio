@@ -1,30 +1,19 @@
 ---
-title: "Artwork Design"
+title: "Summer Intern Assignment(open source)"
 date: 2019-05-12T12:14:34+06:00
 image: "images/portfolio/item-3.png"
-client: "John Doe"
-project_url : "https://themefisher.com/"
-categories: ["illustration"]
-description: "This is meta description."
+client: "Eficode"
+project_url : "https://github.com/asawari44/EficodeAssignment"
+categories: ["Development"]
+description: "Eficode had announced an assignment for their summer internship program, the hiring process stopped due to Covid-19, but I got an opportunity to work on the assignment and publish it on my GitHub."
 draft: false
 ---
 
 #### Project Requirements
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-mollit anim id est laborum.
-
+The assignment was provided by Eficode, Helsinki for a summer job, which involved creating a webpage / website that can show employees bus/ metro/ trams timings in order to reach a certain destination in time. The required technology stack involved, GraphQL as a query language, HSL open data interface, Website designing and building, deploying the website on any platform of choice and unit testing with robot framework. 
 
 #### Project Details
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.
+I created a website using python flask webserver and used HSL open data interface to fetch bus timings and other related information such as location and bus hops, etc. I used GraphQL to query the returned response by the interface and used HTML/CSS/JS to set the response in a descent UI. 
+I created docker image to containerize my website and I deployed it on an AWS EC2 instance. 

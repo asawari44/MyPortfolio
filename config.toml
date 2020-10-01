@@ -55,18 +55,18 @@ home = "Home"
 logo = ""
 # theme color
 #theme_color = "#41228e"
-theme_color = "#cce7e8"
+theme_color = "#B19CD9"
 # contact info
 phone = "+358 417269091"
 email = "asawari44@email.com"
 address = "Kungshamra 41, 1219, Solna, Sweden. 170 70"
 # meta description
 author = "Asawari Joshi"
-description = "This is meta description"
+description = "Student at KTH Royal Institute of Technology, Sweden | Cloud and DevOps Engineer | Sr. Software Engineer | Automation Opportunist | Former DevOps intern @Aalto University, Finland | Master's degree in Cloud and Network Infrastructures"
 # google analytics
 google_analytics_id = "" # Your ID
 # copyright
-copyright = "Copyright &copy; 2020 a theme by [gethugothemes](https://gethugothemes.com)"
+#copyright = "Copyright &copy; 2020 a theme by [gethugothemes](https://gethugothemes.com)"
 
 
 # preloader

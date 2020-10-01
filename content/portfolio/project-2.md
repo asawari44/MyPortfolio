@@ -10,16 +10,13 @@ draft: false
 ---
 
 #### Project Requirements
-
+Mental health awareness is an important factor of the healthcare industry, especially in the nordics, where depression is a commonly diagnosed problem. During the summer school, we were arranged in groups of 5 and our aim was to discuss the problems in mental health industry and propose a valid solution using existing tools and technologies available in the market.
 
 
 #### Project Details
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.
+We came up with the idea of Canari - your companion in mental health as a result of 2 week intense work. Our solution has two sides - a mobile application for patients and a desktop application for medical practitioners. The patient application uses mobile sensors such as the accelerometer, gyroscope, and GPS to track continuous movement data such as exercise, time spent resting, and total time away from home. Patients can use the mobile app to see and control the data being collected, and see highlighted insights about their progress. In addition, patients can access other communication and journaling features for coping with their symptoms. Practitioner's portal on the other side will show valuable insights collected from the user data and help doctor's determine if the treatment is going as expected. They can gather enough data to understand if the medication or dosage needs to be changed and if the condition is improving at all.
+
+We successfully completed and won the summer school challenge with our proposed solution and the pitch.
+ 
+We created mock ups for our solution using Figma and we also plan to reach out investors to validate and fund our idea in the immediate future.
