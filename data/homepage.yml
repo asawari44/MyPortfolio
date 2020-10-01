@@ -41,17 +41,17 @@ experience:
   enable : true
   title : "Experience"
   item: 
-    - logo : "images/experience/icon-1.png"
+    - logo : "images/experience/search.png"
       title : "Research Summer Intern"
       company : "Aalto University, Helsinki, Finland"
       duration : "Jun 2020 - Aug 2020"
       
-    - logo : "images/experience/icon-2.png"
+    - logo : "images/experience/cloud-settings.png"
       title : "Senior Software Engineer (DevOps)"
       company : "GS Lab pvt. ltd., Pune, India"
       duration : "Jul 2016 - July 2019"
       
-    - logo : "images/experience/icon-1.png"
+    - logo : "images/experience/android.png"
       title : "Summer Intern"
       company : "Cresco mobility solutions, Mumbai, India"
       duration : "June 2015 - Aug 2015"
