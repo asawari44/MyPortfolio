@@ -61,7 +61,7 @@ email = "steve.fruits@email.com"
 address = "125/A, CA Commercial Area, California, USA"
 # meta description
 author = "Johnathan Smith"
-#description = "This is meta description"
+description = "Cloud & DevOps Engineer"
 # google analytics
 google_analytics_id = "" # Your ID
 # copyright
