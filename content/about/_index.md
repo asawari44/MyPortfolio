@@ -2,7 +2,7 @@
 title: "About"
 description: "Cloud & DevOps Engineer"
 author_image : "images/about/author.jpg"
-author_signature : "images/about/signature.png"
+author_signature : ""
 draft: false
 ---
 Hi! I am Asa, and currently I am pursuing a master's degree in the field of Cloud and Network infrastructures along with a minor in Business and startup ecosystems. It's a joint degree designed by European Institute of Technology(EIT) which offers mobility program across Europe. I studied first year of my degree at Aalto University, Helsinki, Finland and currently I am studying my final year at KTH Royal institute of Technology, Stockholm, Sweden.   
