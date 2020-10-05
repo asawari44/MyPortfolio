@@ -4,7 +4,7 @@ date: 08-12-2020
 image: "images/portfolio/item-1.png"
 client: "University course project"
 project_url : "https://github.com/asawari44/mobile-cloud-computing-TaskManagerApp"
-categories: ["CI/CD","development"]
+categories: ["CI/CD"]
 description: "This was a group project within a team of 5 people. My responsibility was to design CI for android application and providing environment on GCP cloud for API execution. I was also the in charge of some modules in backend development on using Java in andorid development."
 draft: false
 ---

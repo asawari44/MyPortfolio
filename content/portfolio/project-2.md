@@ -3,8 +3,8 @@ title: "Canari: Your digital companion in mental health"
 date: 31-12-2020
 image: "images/portfolio/item-2.png"
 client: "Website and a startup business idea for summer school, Tallin, Estonia"
-project_url : "https://github.com/asawari44/Canari_summer_school"
-categories: ["Business", "development"]
+project_url : "https://canari.netlify.app/"
+categories: ["Business"]
 description: "In August 2020, an intense 2 week summer school program was arranged by EIT digital master's program in Tallinn, Estonia. The mission was to brainstorm and establish a business idea that can solve problems in the mental health industry with the help of digitization." 
 draft: false
 ---
@@ -20,3 +20,10 @@ We came up with the idea of Canari - your companion in mental health as a result
 We successfully completed and won the summer school challenge with our proposed solution and the pitch.
  
 We created mock ups for our solution using Figma and we also plan to reach out investors to validate and fund our idea in the immediate future.
+
+#### Prototypes 
+
+[Practitioner's portal](https://www.figma.com/proto/4pOz4UqaQLsKCdKomDGSTr/Canari?node-id=76%3A2&scaling=contain)
+
+[Patient's portal](https://www.figma.com/proto/4pOz4UqaQLsKCdKomDGSTr/Canari?node-id=64%3A3&scaling=scale-down)
+

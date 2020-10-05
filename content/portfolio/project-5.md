@@ -1,18 +1,20 @@
 ---
-title: "Internet protocol design"
-date: 2019-03-20T12:14:34+06:00
-image: "images/portfolio/item-4.png"
+title: "Starup Experience : Blazera"
+date: 2020-02-20T12:14:34+06:00
+image: "images/portfolio/item-5.png"
 client: "Aalto University course work"
-project_url : "https://github.com/asawari44/IP_final_assignment"
-categories: ["Development"]
-description: "It was an assignment designed by the Aalto University course called Internet protocols. The objective was to understand the designing process and working of different protocols."
+project_url : "https://blazera.netlify.app/"
+categories: ["Business"]
+description: "It was a project designed by the Aalto University course called Startup Experience. The objective was to understand the startup ecosystem by creating one with a promising and innovative idea."
 draft: false
 ---
 
 #### Project Requirements
-In automated vehicular systems, if one vehicle needs to overtake the other, a video stream from other vehicles approching it in the same lane needs to be processed and the decision of overtaking or changing the lane has to be made on the basis of other vehicles on the vicinity. 
+The project was about coming up with a feasible business idea that identifies and solves one of the sustainable development goals. we were a team of 5 working on the project and it involved brainstorming to coming up with the idea, calculating the market size, required budget, pitching the idea in front of the investors, financial planning,user research for idea validation, prototyping and business landing page creation.  
 
-The objective was to set up a streaming protocol to view continuos video steam and simulate the scenario. Based on the processed data, we had to develop an algorithm that states when is the best time to cross the lane for a vehicle.
 #### Project Details
-We used docker containers for simluating vehicles and rabbitmq as the message handling queque/ broker. Each container would behave as a producer and send a video stream to the message broker. The broker stores metadata related to the frame of the video and sends it to all the subscribed vehicles. When a vehicle needs to cross the lane it would subscribe to the broker and start getting video streaming from the producer vehicles within the radius of 500m. Based on the received data, the algorithm calculates the current speed of the approaching vehicle and calculates the right time to cross the lane.
+We came up with the idea of Blazera, a solution to help fire fighters combat forest fires more efficiently. Our solution proposes a mapping tool for fire marshalls to keep track of their teams and plan the best strategy to fight fires considering the location of the water resources in the nearby area and accessibility to fire fighting units. 
 
+#### Prototypes 
+[Blazera App Mockup](https://www.figma.com/proto/ixECHJu5SKcFXZqUIYJhsK/blazera?node-id=1%3A2&scaling=scale-downFigma)
+ 
