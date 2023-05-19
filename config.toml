@@ -59,12 +59,12 @@ logo = ""
 #theme_color = "#CE9DD9"
 theme_color = "#4f4c4a"
 # contact info
-phone = "+358 417269091"
+phone = "+46 731432898"
 email = "asawari44@gmail.com"
 address = "Stockholm, Sweden 170 70"
 # meta description
 author = "Asawari Joshi"
-description = "Student at KTH Royal Institute of Technology, Sweden | Cloud and DevOps Engineer | Sr. Software Engineer | Automation Opportunist | Former DevOps intern @Aalto University, Finland | Master's degree in Cloud and Network Infrastructures"
+description = "Cloud and DevOps Engineer | Platform Engineer | Automation Opportunist | Research Summer Intern @Aalto University, Finland | Master's degree in Cloud and Network Infrastructures"
 # google analytics
 google_analytics_id = "" # Your ID
 # copyright
