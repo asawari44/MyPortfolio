@@ -5,7 +5,7 @@ banner:
 # about
 about:
   enable : true
-  content : "Student at KTH Royal Institute of Technology, Sweden | Cloud and DevOps Engineer | Sr. Software Engineer | Automation Opportunist | Research Summer Intern @Aalto University, Finland | Master's degree in Cloud and Network Infrastructures"
+  content : "Cloud and DevOps Engineer | Platform Engineer | Automation Opportunist | Research Summer Intern @Aalto University, Finland | Master's degree in Cloud and Network Infrastructures"
   button:
     enable : true
     label : "know more"
@@ -40,7 +40,17 @@ education:
 experience:
   enable : true
   title : "Experience"
-  item: 
+  item:
+    - logo: "images/experience/cloud-settings.png"
+      title: "Cloud / Platform Engineer"
+      company: "Volvo cars, Stockholm, Sweden"
+      duration: "Sept 2022 - Current"
+
+    - logo: "images/experience/cloud-settings.png"
+      title: "DevOps Engineer"
+      company: "Infor Stockholm AB"
+      duration: "December 2020 - Jul 2022"
+
     - logo : "images/experience/search.png"
       title : "Research Summer Intern"
       company : "Aalto University, Helsinki, Finland"

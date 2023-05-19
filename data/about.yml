@@ -5,7 +5,7 @@ work_process:
   item:
   - title : "Technology"
     icon : "images/icons/1.png"
-    content : "CI/CD toolchain, Jenkins, gitlab CI, Docker, Kubernetes, AWS ECS service, AWS AKS, ELK stack, Zabbix, Nagios, Prometheus, Openstack, Azure kubernetes service, Terraform, Cloudformation, Ansible, python scripting, shell scripting, Android application development, Web development with HTML, python flask web applications, stackstorm- event-driven automation"
+    content : "Crospplane, ArgoCD, Golang, CI/CD toolchain, Jenkins, gitlab CI, Docker, Kubernetes, AWS ECS service, AWS AKS, ELK stack, Zabbix, Nagios, Prometheus, Openstack, Azure kubernetes service, Terraform, Cloudformation, Ansible, python scripting, shell scripting, Android application development, Web development with HTML, python flask web applications, stackstorm- event-driven automation"
     
   - title : "Business"
     icon : "images/icons/2.png"

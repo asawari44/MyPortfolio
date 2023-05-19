@@ -20,3 +20,10 @@ serverless
 go
 GCP 
 python development 
+
+
+## Things I worked on in Volvo 
+
+Crospplane - An upcoming technology stack that allows you to provision and manage cloud resources using kubernetes control plane 
+ArgoCD - For faster deployments in a GitOps way 
+Golang - Open source contribution to crossplane providers to add functionalities important for our project. 
