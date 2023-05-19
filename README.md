@@ -22,6 +22,7 @@ GCP
 python development 
 
 
+
 ## Things I worked on in Volvo 
 
 Crospplane - An upcoming technology stack that allows you to provision and manage cloud resources using kubernetes control plane 
